@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'RalewayLight';
+    src: url('fonts/RalewayLight.eot');
+    src: url('fonts/RalewayLight.eot') format('embedded-opentype'),
+         url('fonts/RalewayLight.woff2') format('woff2'),
+         url('fonts/RalewayLight.woff') format('woff'),
+         url('fonts/RalewayLight.ttf') format('truetype'),
+         url('fonts/RalewayLight.svg#RalewayLight') format('svg');
+}
+            /*                     Сommon styles                  */
+body{
+    font-family: RalewayLight;
+    font-size: 12.25px;
+}
+body i:hover {
+    color: orange;
+}
+body a:hover {
+    color: orange;
+}
+            /*                     Futer style                  */
+.futer {
+    height: 55px;
+    background-color:#404b52;
+    padding-top: 15px;
+}
+.futer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.futer i {
+    color: gray;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+.social-network {
+    margin-left: 70px;
+}
+            /*                     Navbar style                  */
+.navbar-header {
+    height: 100px;
+    float: right;
+    padding-right: 60px;
+    padding-top: 25px;
+}
+.fa-angle-down {
+    color: orange;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: orange;
+}
+            /*                     Content style                  */
+
+.caption {
+    text-align: center;
+    margin-top: 80px;
+}
+.typRolet {
+    text-align: center;
+}
+.colorRolet {
+    text-align: center;
+    margin-top: -20px;
+}
+.controlType {
+    text-align: center;
+    margin-top: -20px;
+}
+.price {
+    background-color: gray;
+    text-align: center;
+    margin-top: 115px;
+    padding: 18px;
+    margin-bottom: 25px;
+    
+}
+.priceBottom {
+    background-color: gray;
+    text-align: center;
+    padding: 18px;
+    margin-top: 18px;
+}
+.rol-color input[type=radio], .rol-type input[type=radio], .rol-cont-type input[type=radio]{
+    display: none;
+}
+.rol-color label, .rol-type label, .rol-cont-type label{
+    margin-bottom:0;
+    position: relative;
+}
+.rol-type label:after, .rol-color label:after, .rol-cont-type label:after{
+position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: 1;
+content:'';
+    opacity:0;
+    border:3px solid orange;
+    transition: all 0.5s;
+}
+.rol-cont-type label:hover {
+    border:3px solid orange;
+}
+.rol-color label:hover{
+    border:3px solid orange;
+}
+.rol-type label:hover {
+    border:3px solid orange;
+}
+
+.rol-color input[type=radio]:checked + label:after,.rol-type input[type=radio]:checked + label:after,
+.rol-cont-type input[type=radio]:checked + label:after
+{
+    opacity:1;
+}
+            /*                     FeedBack style                  */
+.email {
+    margin-top: 15px;
+}
+.tel {
+    margin-top: 15px;
+}
+.buy {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
